@@ -1,3 +1,8 @@
+hey guys this is my first code push and im still learning few things here and there 
+this is a basic python program that uses voice recognition and lots of libraries 
+and finally performs certain tasks
+
+
 Voice-Controlled Jarvis:
 Voice-Controlled Jarvis is a Python project that allows you to interact with your computer using voice commands. Inspired by the fictional AI assistant from the Iron Man movies, this project aims to create a simple voice-controlled system.
 
