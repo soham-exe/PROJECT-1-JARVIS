@@ -336,7 +336,7 @@ from playsound import playsound
 
 while True:
     with sr.Microphone() as source:
-        playsound("D:\my codes\project 1\listening_sound.mp3")
+        playsound("D:\project 1\listening_sound.mp3")
         print("Listening...")
         speak("now listening!")
         audio = recognizer.listen(source)
@@ -351,7 +351,7 @@ while True:
             greeting = get_time_greeting()
             speak(greeting)
             while True:
-                playsound("D:\my codes\project 1\listening_sound.mp3")
+                playsound("D:\project 1\listening_sound.mp3")
                 with sr.Microphone() as source:
                     print("Listening for commands...")
                     audio = recognizer.listen(source)
@@ -375,7 +375,7 @@ while True:
 
             # Check if the program has been idle, exit's if so
         current_time = datetime.datetime.now()
-        if (current_time - last_command_time).total_seconds() >= 5:  #timeout
+        if (current_time - last_command_time).total_seconds() >= 10:  #timeout
             speak("No activity detected. Exiting the program.")
             sys.exit()
 
